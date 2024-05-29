@@ -1,0 +1,24 @@
+html,body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    font-family: Andale Mono, monospace;
+    background: aliceblue;
+  }
+  
+  a {
+    margin: auto;
+    font-size: 50px;
+    font-weight: 200;
+    transition: font-weight 250ms ease-in-out;
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    font-size: 150px;
+    font-weight: 900;
+    color: #f7934c;
+  }

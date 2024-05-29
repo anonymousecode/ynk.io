@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Andale Mono, monospace;
+    background: aliceblue;
+}
+
+.resume{
+    position: relative;
+    width: 100%;
+    height:100vh;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin :auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 50px;
+    top: 50%;
+}
+
+nav h1:hover{
+    color:#F47216
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 20px;
+
+}
+
+nav ul li a{
+     text-decoration: none;
+     color: #000;
+     font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #F47216;
+}
+
+
+.heading, .exp, .edu, .awards{
+    margin-left: 8%;
+}
+
+.heading h1{
+    font-size: 80px;
+    color: #000;
+    margin-top: 3%;
+}
+
+.heading h1:hover{
+    color: #F47216;
+}
+
+.heading a{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+hr{
+    margin:3% 8% 1% 8%;
+}
+
+.exp h2 ,.edu h2, .awards h2{
+    font-size: 30px;
+    color: #0000005f
+   
+}
+
+.exp p, .edu p, .awards p{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+
+.exp span, .edu span, .awards span{
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.exp h4, .edu h4, .awards h4{
+    font-size: 20;
+    color: #00000069;
+    padding-top: 5px;
+    margin-left: 51.2%;
+}
+
+.projects, .skills{
+    text-align: center;
+    margin: 2%;
+}
+
+.projects h1, .skills h1{
+    font-size: 50px;
+    color: #0000005f;
+    margin-bottom: 3%;
+}
+
+.projects span{
+    padding: 0 80px 0 80px;
+    font-size: 40px;
+}
+
+.projects span:hover{
+    color: #F47216;
+}
+
+.projects a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.skills i{
+    padding: 10px 60px 0 60px;
+    font-size: 60px;
+    transition: transform 250ms;
+}
+
+.skills i:hover{
+    color: #F47216;
+    transform: scale(1.8);
+}
+
+.social1{
+    text-align: center;
+}
+
+.social1 i{
+    padding: 10px;
+    font-size: 40px;
+    color: #000;
+}
+
+.social1 h3 i {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
